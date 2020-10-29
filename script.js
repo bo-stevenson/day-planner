@@ -10,29 +10,29 @@ $("#currentDay").append(today);
 let currentTime = parseInt(moment().format("HH"));
 console.log(currentTime);
 
-let $textNine = $("#textNine");
-let $textTen = $("#textTen");
-let $textEleven = $("#textEleven");
-let $textTwelve = $("#textTwelve");
-let $textOne = $("#textOne");
-let $textTwo = $("#textTwo");
-let $textThree = $("#textThree");
-let $textFour = $("#textFour");
-let $textFive = $("#textFive");
+let textNine = $("#textNine");
+let textTen = $("#textTen");
+let textEleven = $("#textEleven");
+let textTwelve = $("#textTwelve");
+let textOne = $("#textOne");
+let textTwo = $("#textTwo");
+let textThree = $("#textThree");
+let textFour = $("#textFour");
+let textFive = $("#textFive");
 
 
 $("textarea").each(function(){
 
- let hour = parseInt($(this).attr("hour"));
-    if (hour < currentTime){
+ let name = parseInt($(this).attr("name"));
+    if (name < currentTime){
         $(this).addClass("past");
     } 
 
-    if (hour === currentTime){
+    if (name === currentTime){
         $(this).addClass("present");
     } 
 
-    if (hour > currentTime){
+    if (name > currentTime){
         $(this).addClass("future");
     } 
 
