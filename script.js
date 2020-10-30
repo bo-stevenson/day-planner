@@ -50,8 +50,6 @@ $("button").on("click", function(){
     localStorage.setItem("textThree", (textThree.val()));
     localStorage.setItem("textFour", (textFour.val()));
     localStorage.setItem("textFive", (textFive.val()));
-
-
 });
 
 
@@ -65,12 +63,6 @@ $("#textTwo").append(localStorage.getItem("textTwo"));
 $("#textThree").append(localStorage.getItem("textThree"));
 $("#textFour").append(localStorage.getItem("textFour"));
 $("#textFive").append(localStorage.getItem("textFive"));
-
-
-
-
-
-
 
 
 
