@@ -30,8 +30,6 @@ Project can be viewed at https://bo-stevenson.github.io/day-planner/
 
 ![Screenshot](assets/images/screenshot.png)
 ![Screenshot](assets/images/screenshot-2.png)
-![Screenshot](assets/images/screenshot-3.png)
-![Screenshot](assets/images/screenshot-4.png)
 
 ## Credits
 
