@@ -29,14 +29,10 @@ $("textarea").each(function(){
     } 
 
     if (name === currentTime){
-        $(this).removeClass("past");
-        $(this).removeClass("future");
         $(this).addClass("present");
     } 
 
     if (name > currentTime){
-        $(this).removeClass("past");
-        $(this).removeClass("present");
         $(this).addClass("future");
     } 
 
